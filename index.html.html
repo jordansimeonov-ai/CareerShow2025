@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yordan Plamenov Simeonov - CV Access</title>
+  <style>
+    body {
+      font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(120deg, #1e3c72, #2a5298);
+      color: #333;
+      text-align: center;
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+      padding: 40px 30px;
+      max-width: 500px;
+      margin: auto;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      margin: 10px 0 25px;
+      font-size: 26px;
+      color: #1e3c72;
+    }
+
+    p {
+      font-size: 16px;
+      color: #444;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: block;
+      width: 90%;
+      margin: 12px auto;
+      padding: 14px 16px;
+      border: none;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      text-align: center;
+      color: #fff;
+      transition: all 0.25s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+    }
+
+    .view { background: #2563eb; }
+    .email { background: #059669; }
+
+    .footer-note {
+      margin-top: 25px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Yordan Plamenov Simeonov</h1>
+    <p>📄 Quick access to my CV below:</p>
+
+    <!-- CV Button -->
+    <a href="https://drive.google.com/file/d/1JcO2dBXtBcoGIfUnShKejDLC70nObCqw/view?usp=sharing"
+       target="_blank" class="btn view">🔍 View CV Online</a>
+
+    <!-- Email Button with custom subject/body -->
+    <a href="mailto:your@email.com?subject=Yordan%20Plamenov%20Simeonov_CV_Sofia_CareerShow2025&body=Hello,%20please%20find%20below%20link%20to%20my%20CV:%0A%0Ahttps://drive.google.com/file/d/1JcO2dBXtBcoGIfUnShKejDLC70nObCqw/view?usp=sharing"
+       class="btn email">📧 Send to My Email</a>
+
+    <p class="footer-note">Thank you for your time! 🙌</p>
+  </div>
+</body>
+</html>
